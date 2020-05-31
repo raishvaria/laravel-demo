@@ -14,6 +14,7 @@ Laravel packages allow access to all the features that framework offers to its h
 ## Related videos
 
 - **[Laravel's laravel/ui](https://youtu.be/99TcwjBTUzE)**
+- **[Laravel Dusk](https://youtu.be/80FbFIwQEAw)** (use *laravel-dusk* branch)
 
 ## More videos
 
