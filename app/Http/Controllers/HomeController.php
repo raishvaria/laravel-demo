@@ -23,6 +23,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        \Debugbar::info(auth()->user());
+
+        try {
+            \Debugbar::warning('warning message');
+            \Debugbar::addMessage('Before view return', 'viewlabel');
+             return view('home');
+        } catch(Exception $e) {
+            \Debugbar::error($e);
+        }
+
     }
 }
